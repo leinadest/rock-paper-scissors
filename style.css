@@ -1,0 +1,23 @@
+body, section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section div {
+    display: flex;
+    justify-content: center;
+}
+
+.scores {
+    gap: 100px
+}
+
+.buttons {
+    gap: 25px;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+}
